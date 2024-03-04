@@ -11,7 +11,7 @@ program = 'C:\Windows\System32\wsl.exe'
 
 [window]
 decorations = "none"
-opacity = 0.8
+opacity = 0.9
 startup_mode = "Maximized"
 
 [window.padding]
