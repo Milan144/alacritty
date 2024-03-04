@@ -5,10 +5,6 @@ TERM = "xterm-256color"
 family = "Hack Nerd Font"
 style = "Regular"
 
-[shell]
-args = ["-d Debian", "--cd", "/mnt/c/Users/nokk/Workspace"]
-program = 'C:\Windows\System32\wsl.exe'
-
 [window]
 decorations = "none"
 opacity = 0.8
