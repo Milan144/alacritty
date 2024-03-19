@@ -2,16 +2,16 @@
 TERM = "xterm-256color"
 
 [font.normal]
-family = "Hack Nerd Font"
+family = "JetBrainsMono Nerd Font"
 style = "Regular"
 
 [window]
 decorations = "none"
 startup_mode = "Maximized"
-opacity = 1
+opacity = 0.95
 
 [font]
-size = 12
+size = 13
 
 [window.padding]
 x = 0
