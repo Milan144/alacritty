@@ -8,92 +8,79 @@ style = "Regular"
 [window]
 decorations = "none"
 startup_mode = "Maximized"
-opacity = 0.95
+opacity = 0.8
 
 [font]
 size = 12
 
-[shell]
-args = ["-d Debian", "--cd", "/mnt/c/Users/nokk/Workspace"]
-program = 'C:\Windows\System32\wsl.exe'
-
 [window.padding]
-x = 0
-y = 0
+x = 20
+y = 20
 
 [colors.primary]
-background = "#1E1E2E"
-foreground = "#CDD6F4"
-dim_foreground = "#CDD6F4"
-bright_foreground = "#CDD6F4"
+
+background = "#15151c"
+foreground = "#f8f8f2"
+bright_foreground = "#ffffff"
 
 [colors.cursor]
-text = "#1E1E2E"
-cursor = "#F5E0DC"
+
+text = "#282a36"
+cursor = "#f8f8f2"
 
 [colors.vi_mode_cursor]
-text = "#1E1E2E"
-cursor = "#B4BEFE"
+
+text = "CellBackground"
+cursor = "CellForeground"
+
+[colors.selection]
+
+text = "CellForeground"
+background = "#44475a"
+
+[colors.normal]
+
+black = "#21222c"
+red = "#ff5555"
+green = "#50fa7b"
+yellow = "#f1fa8c"
+blue = "#bd93f9"
+magenta = "#ff79c6"
+cyan = "#8be9fd"
+white = "#f8f8f2"
+
+[colors.bright]
+
+black = "#6272a4"
+red = "#ff6e6e"
+green = "#69ff94"
+yellow = "#ffffa5"
+blue = "#d6acff"
+magenta = "#ff92df"
+cyan = "#a4ffff"
+white = "#ffffff"
 
 [colors.search.matches]
-foreground = "#1E1E2E"
-background = "#A6ADC8"
+
+foreground = "#44475a"
+background = "#50fa7b"
 
 [colors.search.focused_match]
-foreground = "#1E1E2E"
-background = "#A6E3A1"
+
+foreground = "#44475a"
+background = "#ffb86c"
 
 [colors.footer_bar]
-foreground = "#1E1E2E"
-background = "#A6ADC8"
+
+background = "#282a36"
+foreground = "#f8f8f2"
 
 [colors.hints.start]
 
-foreground = "#1E1E2E"
-background = "#F9E2AF"
+foreground = "#282a36"
+background = "#f1fa8c"
 
 [colors.hints.end]
-foreground = "#1E1E2E"
-background = "#A6ADC8"
 
-[colors.selection]
-text = "#1E1E2E"
-background = "#F5E0DC"
-
-[colors.normal]
-black = "#45475A"
-red = "#F38BA8"
-green = "#A6E3A1"
-yellow = "#F9E2AF"
-blue = "#89B4FA"
-magenta = "#F5C2E7"
-cyan = "#94E2D5"
-white = "#BAC2DE"
-
-[colors.bright]
-black = "#585B70"
-red = "#F38BA8"
-green = "#A6E3A1"
-yellow = "#F9E2AF"
-blue = "#89B4FA"
-magenta = "#F5C2E7"
-cyan = "#94E2D5"
-white = "#A6ADC8"
-
-[colors.dim]
-black = "#45475A"
-red = "#F38BA8"
-green = "#A6E3A1"
-yellow = "#F9E2AF"
-blue = "#89B4FA"
-magenta = "#F5C2E7"
-cyan = "#94E2D5"
-white = "#BAC2DE"
-
-[[colors.indexed_colors]]
-index = 16
-color = "#FAB387"
-
-[[colors.indexed_colors]]
-index = 17
-color = "#F5E0DC"
+foreground = "#f1fa8c"
+background = "#282a36"
