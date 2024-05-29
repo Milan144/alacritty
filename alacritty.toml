@@ -8,7 +8,7 @@ style = "Regular"
 [window]
 decorations = "none"
 startup_mode = "Maximized"
-opacity = 0.90
+opacity = 0.95
 
 [font]
 size = 11
