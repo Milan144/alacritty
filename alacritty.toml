@@ -11,7 +11,7 @@ startup_mode = "maximized"
 opacity = 0.9
 
 [font]
-size = 11
+size = 12
 
 [window.padding]
 x = 20
