@@ -8,10 +8,10 @@ style = "Regular"
 [window]
 decorations = "none"
 startup_mode = "maximized"
-opacity = 0.9
+opacity = 0.95
 
 [font]
-size = 12
+size = 11.5
 
 [window.padding]
 x = 20
