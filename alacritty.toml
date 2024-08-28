@@ -17,28 +17,29 @@ size = 11.5
 x = 20
 y = 20
 
-
+# Default colors
 [colors.primary]
-background = "#282c34"
-foreground = "#abb2bf"
+background = '#2D2A2E'
+foreground = '#fff1f3'
 
+# Normal colors
 [colors.normal]
-black = "#282c34"
-red = "#e06c75"
-green = "#98c379"
-yellow = "#d19a66"
-blue = "#61afef"
-magenta = "#c678dd"
-cyan = "#56b6c2"
-white = "#abb2bf"
+black   = '#2c2525'
+red     = '#fd6883'
+green   = '#adda78'
+yellow  = '#f9cc6c'
+blue    = '#f38d70'
+magenta = '#a8a9eb'
+cyan    = '#85dacc'
+white   = '#fff1f3'
 
+# Bright colors
 [colors.bright]
-black = "#5c6370"
-red = "#e06c75"
-green = "#98c379"
-yellow = "#d19a66"
-blue = "#61afef"
-magenta = "#c678dd"
-cyan = "#56b6c2"
-white = "#ffffff"
-
+black   = '#72696a'
+red     = '#fd6883'
+green   = '#adda78'
+yellow  = '#f9cc6c'
+blue    = '#f38d70'
+magenta = '#a8a9eb'
+cyan    = '#85dacc'
+white   = '#fff1f3'
