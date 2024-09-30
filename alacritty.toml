@@ -17,77 +17,74 @@ x = 20
 y = 20
 
 [colors.primary]
-background = "#303446"
-foreground = "#c6d0f5"
-dim_foreground = "#838ba7"
-bright_foreground = "#c6d0f5"
+foreground = "#e0def4"
+background = "#191724"
+dim_foreground = "#908caa"
+bright_foreground = "#e0def4"
 
 [colors.cursor]
-text = "#303446"
-cursor = "#f2d5cf"
+text = "#e0def4"
+cursor = "#524f67"
 
 [colors.vi_mode_cursor]
-text = "#303446"
-cursor = "#babbf1"
+text = "#e0def4"
+cursor = "#524f67"
 
 [colors.search.matches]
-foreground = "#303446"
-background = "#a5adce"
+foreground = "#908caa"
+background = "#26233a"
 
 [colors.search.focused_match]
-foreground = "#303446"
-background = "#a6d189"
-
-[colors.footer_bar]
-foreground = "#303446"
-background = "#a5adce"
+foreground = "#191724"
+background = "#ebbcba"
 
 [colors.hints.start]
-foreground = "#303446"
-background = "#e5c890"
+foreground = "#908caa"
+background = "#1f1d2e"
 
 [colors.hints.end]
-foreground = "#303446"
-background = "#a5adce"
+foreground = "#6e6a86"
+background = "#1f1d2e"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.footer_bar]
+foreground = "#e0def4"
+background = "#1f1d2e"
 
 [colors.selection]
-text = "#303446"
-background = "#f2d5cf"
+text = "#e0def4"
+background = "#403d52"
 
 [colors.normal]
-black = "#51576d"
-red = "#e78284"
-green = "#a6d189"
-yellow = "#e5c890"
-blue = "#8caaee"
-magenta = "#f4b8e4"
-cyan = "#81c8be"
-white = "#b5bfe2"
+black = "#26233a"
+red = "#eb6f92"
+green = "#31748f"
+yellow = "#f6c177"
+blue = "#9ccfd8"
+magenta = "#c4a7e7"
+cyan = "#ebbcba"
+white = "#e0def4"
 
 [colors.bright]
-black = "#626880"
-red = "#e78284"
-green = "#a6d189"
-yellow = "#e5c890"
-blue = "#8caaee"
-magenta = "#f4b8e4"
-cyan = "#81c8be"
-white = "#a5adce"
+black = "#6e6a86"
+red = "#eb6f92"
+green = "#31748f"
+yellow = "#f6c177"
+blue = "#9ccfd8"
+magenta = "#c4a7e7"
+cyan = "#ebbcba"
+white = "#e0def4"
 
 [colors.dim]
-black = "#51576d"
-red = "#e78284"
-green = "#a6d189"
-yellow = "#e5c890"
-blue = "#8caaee"
-magenta = "#f4b8e4"
-cyan = "#81c8be"
-white = "#b5bfe2"
+black = "#6e6a86"
+red = "#eb6f92"
+green = "#31748f"
+yellow = "#f6c177"
+blue = "#9ccfd8"
+magenta = "#c4a7e7"
+cyan = "#ebbcba"
+white = "#e0def4"
 
-[[colors.indexed_colors]]
-index = 16
-color = "#ef9f76"
-
-[[colors.indexed_colors]]
-index = 17
-color = "#f2d5cf"
